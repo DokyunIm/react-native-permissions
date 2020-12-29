@@ -31,6 +31,8 @@ const ANDROID = Object.freeze({
   WRITE_CALL_LOG: 'android.permission.WRITE_CALL_LOG',
   WRITE_CONTACTS: 'android.permission.WRITE_CONTACTS',
   WRITE_EXTERNAL_STORAGE: 'android.permission.WRITE_EXTERNAL_STORAGE',
+  CHANGE_WIFI_STATE: 'android.permission.CHANGE_WIFI_STATE',
+  ACCESS_WIFI_STATE: 'android.permission.ACCESS_WIFI_STATE',
 } as const);
 
 export type AndroidPermissionMap = typeof ANDROID;

@@ -127,6 +127,10 @@ public class RNPermissionsModule extends ReactContextBaseJavaModule implements P
       return "WRITE_CONTACTS";
     if (permission.equals("android.permission.WRITE_EXTERNAL_STORAGE"))
       return "WRITE_EXTERNAL_STORAGE";
+    if (permission.equals("android.permission.CHANGE_WIFI_STATE"))
+      return "CHANGE_WIFI_STATE";
+    if (permission.equals("android.permission.ACCESS_WIFI_STATE"))
+      return "ACCESS_WIFI_STATE";
 
     return null;
   }
